@@ -1,0 +1,202 @@
+body {
+  font-family: "Open Sans", "Arial";
+  margin-top: 2em;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-left: auto;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  max-width: 800px;
+  line-height: 1.4;
+  text-align: justify;
+  justify-content: center;
+  background: black;
+  color: #d9d9d9;
+}
+
+.pwp {
+  margin-top: -1em;
+}
+
+.red-underline {
+  text-decoration: underline;
+  color: #d24637;
+}
+
+a:link {
+  color: #00a2e7;
+}
+
+a:visited {
+  color: #ca1a70;
+}
+
+.visited {
+  color: #941352;
+}
+
+.dark-red {
+  color: #b00000;
+}
+
+.minitext {
+  font-size: 6.4px;
+}
+
+.blue {
+  color: #0000ee;
+}
+
+ul li img {
+  height: 1em;
+}
+
+.purple {
+  color: #551a8b;
+}
+
+.monospace-font {
+  font-family: monospace;
+  font-size: 14.4px;
+}
+
+.square {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  background-color: #444;
+}
+.fourfourfour {
+  color: #444444;
+  font-weight: 700;
+}
+
+.square2 {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  background-color: #454545;
+}
+
+.fourfivefour {
+  color: #454545;
+  font-weight: 700;
+}
+
+div.container div.picture-left {
+  float: left;
+  width: 40%;
+  overflow: hidden;
+  margin-right: 1em;
+}
+
+div.container div.picture-left figure {
+  margin: 10px;
+}
+
+div.container div.picture-left img {
+  width: 100%;
+}
+
+div.container div.picture-left figure figcaption {
+  font-size: 0.7em;
+}
+
+div.container div.text-right {
+  margin-top: 0;
+  float: left;
+  width: 55%;
+}
+
+div.container div.text-right p:first-child{
+  margin-top:0
+}
+
+div.container:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+blockquote {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 40px;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+
+blockquote:before {
+  font-family: 'Times New Roman', Times, serif;
+  color: #d3c9be;
+  content: '\201C ';
+  font-size: 2.2em;
+  font-weight: 600;
+  float: left;
+  margin-top: 0;
+  margin-right: 0.2rem;
+  width: 1.2rem;
+}
+
+blockquote span {
+  color: #d3c9be;
+  float: left;
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+
+blockquote author:before {
+  content: "- ";
+  margin-right: 1em;
+}
+
+blockquote author {
+  color: #d3c9be;
+  display: block;
+  clear: both;
+  font-size: .6em;
+  margin-left: 2.4rem;
+  font-style: oblique;
+}
+
+.kopimi {
+  height: 2em;
+  margin-left: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contrast {
+  color: white;
+  top: 10px;
+  background-color: black;
+  text-decoration: underline;
+}
+
+#invmode {
+  color: white;
+  top: 34px;
+  background-color: black;
+  text-decoration: underline;
+}
+
+button.cont-inv {
+  cursor: pointer;
+  border-radius: 2px;
+  position: fixed;
+  right: 10px;
+  font-size: .8em;
+  border: 0;
+  padding: 2px 5px;
+}
